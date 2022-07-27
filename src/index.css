@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff3f0;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 2rem;
+}
+
+.title {
+  font-size: 3rem;
+  color: rgb(0, 0, 0);
+
+  padding: 1rem;
+}
+
+.title-meaty {
+  font-family: "Fascinate", cursive;
+  letter-spacing: 0.2rem;
+}
+
+.title-ipsum {
+  font-family: "Raleway", sans-serif;
+}
+
+.paragraph-generator-container {
+  padding: 1rem;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.paragraph-generator-text {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 1.3rem;
+  letter-spacing: 0.1rem;
+
+  margin-right: 0.5rem;
+}
+
+.amount-input {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.3rem;
+
+  width: 5rem;
+
+  padding: 0.2rem 0.5rem 0.5rem 0.5rem;
+  margin-right: 0.5rem;
+
+  border: none;
+  border-radius: 0.3rem;
+}
+
+.generate-button {
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.1rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+
+  background: lightpink;
+
+  padding: 0.65rem;
+
+  border: none;
+  border-radius: 0.3rem;
+}
+
+.paragraph-container {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1.3rem;
+  text-align: justify;
+
+  width: 50rem;
+  padding: 0.5rem;
+
+  margin-top: 1rem;
+
+  text-indent: 4rem;
+}
+
+.err-handle {
+  color: rgb(193, 137, 137);
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
