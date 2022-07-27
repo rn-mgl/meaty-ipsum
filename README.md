@@ -1,3 +1,1 @@
-#meaty ipsum#
-
-lorem ipsum, made tastier
+lorem ipsum, made meatier
